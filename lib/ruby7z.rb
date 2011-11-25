@@ -1,5 +1,5 @@
 require "ruby7z/version"
 
 module Ruby7z
-  # Your code goes here...
+  autoload :Archive, 'ruby7z/archive'
 end
